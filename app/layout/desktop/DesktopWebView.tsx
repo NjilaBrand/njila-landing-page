@@ -3,6 +3,7 @@ import { NavBar } from '../../components/desktop/NavBar/NavBar';
 import Agrupar from '../../assets/Agrupar.svg'
 import '../../components/sass/homeDesktop.scss'
 import { AgenciaDigital } from '@/app/components/desktop/AgenciaDigital/AgenciaDigital';
+import { GrupoCard } from '@/app/components/desktop/GrupoCard/GrupoCard';
 
 export default function DesktopWebView() {
   return (
@@ -40,6 +41,7 @@ export default function DesktopWebView() {
           </div>
         </header>
         <AgenciaDigital />
+        <GrupoCard />
     </main>
   )
 }
