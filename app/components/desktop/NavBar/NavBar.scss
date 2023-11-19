@@ -9,6 +9,13 @@
     justify-content: space-between;
     align-items: center;
     z-index: 5;
+    transition: .5s;
+
+    &.fixed-top {
+        background-color: #ffffff1a;
+        height: 90px;
+        backdrop-filter: blur(10px);
+    }
 
     .logo-njila-link {
         position: relative;
