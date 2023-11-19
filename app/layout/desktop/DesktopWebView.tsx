@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { NavBar } from '../../components/desktop/NavBar/NavBar';
 import Agrupar from '../../assets/Agrupar.svg'
 import '../../components/sass/homeDesktop.scss'
+import { AgenciaDigital } from '@/app/components/desktop/AgenciaDigital/AgenciaDigital';
 
 export default function DesktopWebView() {
   return (
@@ -38,6 +39,7 @@ export default function DesktopWebView() {
             </div>
           </div>
         </header>
+        <AgenciaDigital />
     </main>
   )
 }
