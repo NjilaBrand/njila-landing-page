@@ -1,4 +1,7 @@
 @use './components/sass/variables';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
     margin: 0;
