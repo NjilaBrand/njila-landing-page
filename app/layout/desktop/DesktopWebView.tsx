@@ -4,6 +4,10 @@ import Agrupar from '../../assets/Agrupar.svg'
 import '../../components/sass/homeDesktop.scss'
 import { AgenciaDigital } from '@/app/components/desktop/AgenciaDigital/AgenciaDigital';
 import { GrupoCard } from '@/app/components/desktop/GrupoCard/GrupoCard';
+import Equipe from '@/app/components/desktop/Equipe/Equipe';
+import { About } from '@/app/components/desktop/About/About';
+import { SuaVisao } from '@/app/components/desktop/SuaVisao/SuaVisao';
+import { Portfolio } from '@/app/components/desktop/Portfolio/Portfolio';
 
 export default function DesktopWebView() {
   return (
@@ -42,6 +46,11 @@ export default function DesktopWebView() {
         </header>
         <AgenciaDigital />
         <GrupoCard />
+        <About />
+        <br /><br />
+        <SuaVisao />
+        <Portfolio />
+        <Equipe />
     </main>
   )
 }
