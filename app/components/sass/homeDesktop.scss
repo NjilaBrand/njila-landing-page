@@ -1,5 +1,10 @@
 @use './variables.scss';
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 .header-desk {
     position: relative;
     // background-color: red;

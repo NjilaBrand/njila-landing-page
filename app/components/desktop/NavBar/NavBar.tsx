@@ -18,10 +18,10 @@ export const NavBar = () => {
 
         <div className="menu-navigation">
             <Link href={'#'} className='active'>Inicio</Link>
-            <Link href={'#'}>Sobre nós</Link>
-            <Link href={'#'}>Portfólio</Link>
-            <Link href={'#'}>Nosso Team</Link>
-            <Link href={'#'}>Serviços</Link>
+            <Link href={'#about'}>Sobre nós</Link>
+            <Link href={'#portfolio'}>Portfólio</Link>
+            <Link href={'#equipe'}>Nosso Team</Link>
+            <Link href={'#servicos'}>Serviços</Link>
             <Link href={'#'}>Contactos</Link>
         </div>
     </nav>

@@ -12,7 +12,7 @@ export const AgenciaDigital = () => {
     <div className='AgenciaDigital'>
         <p className='p-content'>Comece agora!</p>
         <Link 
-            href={'#'} 
+            href={'#about'} 
             className='btn-comecar'
         >
             <Image 
