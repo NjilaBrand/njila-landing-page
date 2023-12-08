@@ -4,7 +4,7 @@ import './About.scss'
 
 export const About = () => {
   return (
-    <div className='About'>
+    <div className='About' id='about'>
         <div className="about-image">
             <Image
                 src={Lustran}
