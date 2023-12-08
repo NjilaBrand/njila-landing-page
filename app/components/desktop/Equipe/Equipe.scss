@@ -1,0 +1,234 @@
+@use '../../sass/variables.scss';
+
+.Equipe {
+    position: relative;
+    width: 100%;
+    height: 1250px;
+    //background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .Equipe-content-text {
+        position: relative;
+        width: 100%;
+        height: 125px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+            width: 533px;
+            color: variables.$text-color;
+            font-size: 45px;
+            font-weight: 900;
+            line-height: 54px;
+            letter-spacing: 0em;
+            text-align: center;
+            text-transform: capitalize;
+
+            span {
+                color: variables.$bg-blue-ocean;
+            }
+        }
+
+        p {
+            width: 780px;
+            color: variables.$text-color-secondary-1;            ;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+    }
+
+    .Equipe-content-slider {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .Equipe-slider {
+            //background-color: chocolate;
+            width: 85%;
+            padding: 14px 0;
+            overflow: hidden;
+
+            .box-content {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .Equipe-slider-content-text {
+                    position: relative;
+                    width: 672.58px;
+                    height: 293.82px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    .content-text-one {
+                        width: 645px;
+
+                        h2 {
+                            color: variables.$bg-purple-color;
+                            font-size: 32px;
+                            font-weight: 900;
+                            line-height: 41px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            text-transform: capitalize;
+
+                            span {
+                                color: variables.$bg-orange-fruit;
+                            }
+                        }
+
+                        p {
+                            position: relative;
+                            top: 5px;
+                            width: 645px;
+                            color: variables.$text-color-secondary-1;
+                            font-size: 20px;
+                            font-weight: 400;
+                            line-height: 30px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                        }
+                    }
+
+                    .content-text-two {
+                        width: 646px;
+                        margin-left: 26px;
+
+                        h2 {
+                            color: variables.$bg-purple-color;
+                            font-size: 32px;
+                            font-weight: 900;
+                            line-height: 39px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            text-transform: capitalize;
+
+                            span {
+                                color: variables.$bg-orange-fruit;
+                            }
+                        }
+
+                        p {
+                            position: relative;
+                            top: 5px;
+                            width: 645px;
+                            color: variables.$text-color-secondary-1;
+                            font-size: 20px;
+                            font-weight: 400;
+                            line-height: 30px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                        }
+                    }
+                }
+
+                .Equipe-slider-content-image {
+                    position: relative;
+                    width: 754px;
+                    height: 679px;
+                    display: flex;
+
+                    .content-image-one {
+                        position: relative;
+
+                        .text {
+                            position: absolute;
+                            width: 305px;
+                            height: 80px;
+                            border-radius: 20px;
+                            border: 1.2px solid variables.$bg-color;
+                            background-color: variables.$background-card-border-1;
+                            backdrop-filter: blur(5px);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            z-index: 1;
+                            left: 269px;
+                            top: 49px;
+                            
+                            span {
+                                color: variables.$bg-color;
+                                font-size: 30px;
+                                font-weight: 900;
+                                line-height: 36px;
+                                letter-spacing: 0em;
+                                text-transform: capitalize;
+                            }
+                        }
+
+                        .image {
+                            position: relative;
+                            background: #662ABC;
+                            width: 404px;
+                            height: 513px;
+                            border-radius: 30px;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+
+                    .content-image-two {
+                        position: relative;
+
+                        .image {
+                            position: relative;
+                            left: -45px;
+                            top: 166px;
+                            background: #FC9C01;
+                            width: 404px;
+                            height: 513px;
+                            border-radius: 30px;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+
+                        .text {
+                            position: absolute;
+                            width: 305px;
+                            height: 80px;
+                            border-radius: 20px;
+                            border: 1.2px solid variables.$bg-color;
+                            background-color: variables.$background-card-border-1;
+                            backdrop-filter: blur(5px);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            z-index: 1;
+                            bottom: 56px;
+                            left: -216px;
+                            
+                            span {
+                                color: variables.$bg-color;
+                                font-size: 30px;
+                                font-weight: 900;
+                                line-height: 36px;
+                                letter-spacing: 0em;
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
