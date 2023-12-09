@@ -9,6 +9,7 @@ import Servicos from '@/app/components/desktop/Servicos/Servicos';
 import { About } from '@/app/components/desktop/About/About';
 import { SuaVisao } from '@/app/components/desktop/SuaVisao/SuaVisao';
 import { Portfolio } from '@/app/components/desktop/Portfolio/Portfolio';
+import Contactos from '@/app/components/desktop/Contactos/Contactos';
 
 export default function DesktopWebView() {
   return (
@@ -53,6 +54,8 @@ export default function DesktopWebView() {
         <Portfolio />
         <Equipe />
         <Servicos />
+        <br /><br /><br /><br />
+        <Contactos />
     </main>
   )
 }
