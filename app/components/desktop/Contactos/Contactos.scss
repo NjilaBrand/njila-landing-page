@@ -1,0 +1,201 @@
+@use '../../sass/variables.scss';
+
+.Contactos {
+    position: relative;
+    width: 100%;
+    height: 1071px;
+
+    .content-conecte-njila {
+        position: relative;
+        width: 100%;
+        height: 545px;
+        display: flex;
+        align-items: center;
+
+        .content-image {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                position: relative;
+                bottom: -250px;
+            }
+        }
+
+        .content {
+            position: relative;
+            left: 165px;
+            width: 700.96px;
+            height: 317px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            h2 {
+                width: 422px;
+                color: variables.$text-color;
+                font-size: 48px;
+                font-weight: 900;
+                line-height: 63px;
+                letter-spacing: 0em;
+                text-align: left;
+
+                span {
+                    color: variables.$bg-purple-color;
+                }
+            }
+
+            p {
+                width: 700.96px;
+                color: variables.$text-color;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+
+            form {
+                width: 593px;
+                height: 61px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                input {
+                    width: 380px;
+                    height: 60px;
+                    background: #00000014;
+                    border: none;
+                    border-radius: 15px;
+                    outline: none;
+                    color: variables.$text-color-secondary-1;
+                    padding: 14px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                    &::placeholder {
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: variables.$text-color-secondary-1;
+                    }
+                }
+
+                button {
+                    width: 203px;
+                    height: 60px;
+                    border: none;
+                    border-radius: 15px;
+                    outline: none;
+                    background-color: variables.$bg-orange-fruit;
+                    color: variables.$bg-color;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 19px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .content-contactos-njila {
+        position: relative;
+        width: 100%;
+        height: 545px;
+        background-color: variables.$bg-blue-ocean;
+
+        .frame {
+            position: absolute;
+            bottom: 0;
+            right: -3%;
+            z-index: 1;
+        }
+
+        .contactos-content {
+            position: relative;
+            top: 80px;
+            left: 165px;
+            width: 535px;
+            height: 293px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            h2 {
+                width: 269px;
+                color: variables.$bg-color;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 63px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+
+            .text {
+                width: 479.47px;
+                color: variables.$bg-color;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+
+            .links {
+                width: 535px;
+                height: 112px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                p {
+                    display: flex;
+
+                    span {
+                        position: relative;
+                        left: 10px;
+                        color: variables.$bg-color;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 88px;
+            background-color: #1669B8;
+            display: flex;
+            align-items: center;
+
+            p {
+                position: relative;
+                left: 165px;
+                width: 369px;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: variables.$bg-color;
+            }
+        }
+    }
+}
