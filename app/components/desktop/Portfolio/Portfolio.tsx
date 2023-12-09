@@ -3,9 +3,9 @@ import { SliderPortfolio } from './SliderPortfolio'
 
 export const Portfolio = () => {
   return (
-    <div className='Portfolio'>
+    <div className='Portfolio' id='portfolio'>
         <div className="Portfolio-content-text">
-            <h2>Nosso <span>Portfolio</span></h2>
+            <h2>Nosso <span>Portfólio</span></h2>
             <p>
                 Somos uma empresa atuante nas áreas de 
                 Marketing e Publicidade desenvolvendo 

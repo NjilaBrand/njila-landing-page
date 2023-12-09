@@ -2,6 +2,9 @@
 import { Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
+import Rectaguler01 from "../../../assets/Rectangle 22.png"
+import Rectaguler02 from "../../../assets/Rectangle 26.png"
+import Rectaguler03 from "../../../assets/Rectangle 27.png"
 import image1 from '../../../assets/image1.jpg'
 import image2 from '../../../assets/image2.jpg'
 import image3 from '../../../assets/image3.jpg'
@@ -101,21 +104,22 @@ const ProtfolioProjects = () => {
             "project": [
                 {
                     "projectID": 1,
-                    "image": image1,
+                    "image": Rectaguler01,
                     "link": "image1"
                 },
                 {
                     "projectID": 2,
-                    "image": image2,
+                    "image": Rectaguler02,
                     "link": "image2"
                 },
                 {
                     "projectID": 3,
-                    "image": image3,
+                    "image": Rectaguler03,
                     "link": "image3"
                 }
             ]
         },
+        /**
         {
             "id": 2,
             "empresa": "Branding",
@@ -188,6 +192,7 @@ const ProtfolioProjects = () => {
                 }
             ]
         },
+        */
     ]
 
     return protfolio
