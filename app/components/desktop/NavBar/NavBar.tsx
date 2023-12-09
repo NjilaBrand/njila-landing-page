@@ -22,7 +22,7 @@ export const NavBar = () => {
             <Link href={'#portfolio'}>Portfólio</Link>
             <Link href={'#equipe'}>Nosso Team</Link>
             <Link href={'#servicos'}>Serviços</Link>
-            <Link href={'#'}>Contactos</Link>
+            <Link href={'#contactos'}>Contactos</Link>
         </div>
     </nav>
   )
