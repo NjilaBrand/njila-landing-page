@@ -14,7 +14,7 @@ import Contactos from '@/app/components/desktop/Contactos/Contactos';
 export default function DesktopWebView() {
   return (
     <main className='home'>
-        <header className='header-desk'>
+        <header className='header-desk' id='header-desk'>
           <NavBar />
           <div className="intro-content">
             <div className="introduction-info">

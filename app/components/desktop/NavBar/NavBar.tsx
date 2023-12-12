@@ -17,7 +17,7 @@ export const NavBar = () => {
         </Link>
 
         <div className="menu-navigation">
-            <Link href={'#'} className='active'>Inicio</Link>
+            <Link href={'#header-desk'} className='active'>Inicio</Link>
             <Link href={'#about'}>Sobre nós</Link>
             <Link href={'#portfolio'}>Portfólio</Link>
             <Link href={'#equipe'}>Nosso Team</Link>
