@@ -21,7 +21,7 @@ export default function Contactos() {
                     <h2>Conecte-se a <span>Njilabrand</span></h2>
 
                     <p>
-                        "Lorem ipsum dolor sit amet, consectetur 
+                        Lorem ipsum dolor sit amet, consectetur 
                         adipiscing elit, sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud 
@@ -51,7 +51,7 @@ export default function Contactos() {
                 <div className="contactos-content">
                     <h2>Contactos</h2>
                     <p className='text'>
-                        "Lorem ipsum dolor sit amet, 
+                        Lorem ipsum dolor sit amet, 
                         consectetur adipiscing elit, 
                         sed do eiusmod.
                     </p>
