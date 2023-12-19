@@ -6,13 +6,13 @@ import designerIlustran from '../../../assets/Saly-21.svg'
 export default function Web() {
     return (
         <div className="Web">
-            <div className="Web-image">
+            <div data-aos="flip-left" className="Web-image">
                 <Image
                     src={web}
                     alt="Desenvolvimento Web"
                 />
             </div>
-            <div className="Web-content">
+            <div data-aos="fade-left" className="Web-content">
                 <h2>Desenvolvimento <span>Web</span></h2>
                 <p>
                     Lorem ipsum dolor sit amet, 

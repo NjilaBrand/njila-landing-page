@@ -6,7 +6,7 @@ import designerIlustran from '../../../assets/Frame 13.svg'
 export default function Marketing() {
     return (
         <div className="Marketing">
-            <div className="Marketing-content">
+            <div data-aos="fade-right" className="Marketing-content">
                 <Image
                     src={designerIlustran}
                     width={122}
@@ -25,7 +25,7 @@ export default function Marketing() {
                 <Link href={'#'}>Saber Mais</Link>
             </div>
 
-            <div className="Marketing-image">
+            <div data-aos="fade-left" className="Marketing-image">
                 <Image
                     src={marketing}
                     alt="marketing"

@@ -1,6 +1,6 @@
 export const EffectElastic = () => {
   return (
-    <svg width="1242" height="362" viewBox="0 0 1242 362" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-aos="flip-left" width="1242" height="362" viewBox="0 0 1242 362" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M1163 62C973.5 -31.4999 799.9 -3.60011 617.5 69.9999C435.1 143.6 275 334.5 73.5 250.5" stroke="#662ABC" stroke-width="4" stroke-linecap="round"/>
         <path d="M776.5 21.5C962.1 -26.5 1122.83 37.1667 1180 75L885.5 138.5L614.5 85C591.167 83.8333 590.9 69.5 776.5 21.5Z" fill="url(#paint0_linear_0_1)" fill-opacity="0.13"/>
 

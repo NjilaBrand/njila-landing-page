@@ -18,7 +18,7 @@ export const SuaVisao = () => {
         <div className="content">
             <EffectElastic />
              <div className="content-card">
-                <div className="card h-[351.34px] c0">
+                <div data-aos="fade-right" className="card h-[351.34px] c0">
                     <div className="card-title">
                         <h2>Nossa Missão</h2>
                     </div>
@@ -31,7 +31,7 @@ export const SuaVisao = () => {
                     </div>
                 </div>
 
-                <div className="card h-[393px] c1">
+                <div data-aos="fade-up" className="card h-[393px] c1">
                     <div className="card-title">
                         <h2>Nossa Visão</h2>
                     </div>
@@ -45,7 +45,7 @@ export const SuaVisao = () => {
                     </div>
                 </div>
 
-                <div className="card h-[240px] c2">
+                <div data-aos="fade-left" className="card h-[240px] c2">
                     <div className="card-title">
                         <h2>Nossos Valores</h2>
                     </div>

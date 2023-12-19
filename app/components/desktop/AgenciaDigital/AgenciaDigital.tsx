@@ -14,6 +14,7 @@ export const AgenciaDigital = () => {
         <Link 
             href={'#about'} 
             className='btn-comecar'
+            data-aos="fade-up"
         >
             <Image 
                 src={ArrowDown}
@@ -30,6 +31,7 @@ export const AgenciaDigital = () => {
                     width={170}
                     height={219}
                     alt='RectangleImage'
+                    data-aos="fade-right"
                 />
                 <Image 
                     src={RectangleImage02}
@@ -37,6 +39,7 @@ export const AgenciaDigital = () => {
                     height={219}
                     alt='RectangleImage'
                     className='RectangleImage02'
+                    data-aos="fade-up"
                 />
             </div>
             <div className="content-intro">
@@ -56,6 +59,7 @@ export const AgenciaDigital = () => {
                     width={170}
                     height={219}
                     alt='RectangleImage'
+                    data-aos="fade-left"
                 />
                 <Image 
                     src={RectangleImage03}
@@ -63,6 +67,7 @@ export const AgenciaDigital = () => {
                     height={219}
                     alt='RectangleImage'
                     className='RectangleImage03'
+                    data-aos="fade-up"
                 />
             </div>
         </div>

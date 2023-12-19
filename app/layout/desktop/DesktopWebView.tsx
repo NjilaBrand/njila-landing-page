@@ -18,25 +18,25 @@ export default function DesktopWebView() {
           <NavBar />
           <div className="intro-content">
             <div className="introduction-info">
-              <div className="info-content">
+              <div data-aos="fade-right" className="info-content">
                   Trabalhe com os melhores 
                   <span> profissionais</span> de <span>marketing </span> 
                   para a sua <span>empresa.</span>
               </div>
-              <div className="bg-lustran">
+              <div data-aos="fade-left" className="bg-lustran">
                 <Image
                   src={Agrupar}
                   alt='Agrupar'
                 />
               </div>
-                <div className="marketing">
+                <div data-aos="fade-right" className="marketing">
                   <div className="bg-border"></div>
                   <div className="content">
                     <p>Marketing</p>
                     <span>Crescemos consigo!</span>
                   </div>
                 </div>
-                <div className="dev-web">
+                <div data-aos="fade-left" className="dev-web">
                   <div className="bg-border"></div>
                   <div className="content">
                     <p>Desenvolvimento Web</p>

@@ -5,7 +5,7 @@ import './About.scss'
 export const About = () => {
   return (
     <div className='About' id='about'>
-        <div className="about-image">
+        <div data-aos="fade-right" className="about-image">
             <Image
                 src={Lustran}
                 width={675}
@@ -13,7 +13,7 @@ export const About = () => {
                 alt='About'
             />
         </div>
-        <div className="about-content">
+        <div data-aos="fade-left" className="about-content">
             <p className="about-title">Sobre nós</p>
             <h2 className="about-intro">
                 Ignorar as <span>grandes</span> promessas contratar 

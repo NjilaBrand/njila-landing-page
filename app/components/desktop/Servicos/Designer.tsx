@@ -6,13 +6,13 @@ import designerIlustran from '../../../assets/designer-ilustran.svg'
 export default function Designer() {
     return (
         <div className="Designer">
-            <div className="Designer-image">
+            <div data-aos="zoom-out-down" className="Designer-image">
                 <Image
                     src={designer}
                     alt="designer"
                 />
             </div>
-            <div className="Designer-content">
+            <div data-aos="fade-left" className="Designer-content">
                 <Image
                     src={designerIlustran}
                     width={122}
